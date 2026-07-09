@@ -1,4 +1,4 @@
-const apiKey = "YOUR_REAL_API_KEY";
+const apiKey = "807f736fdd8acca5e047a11ea4be7e58";
 
 // ---------------- WEATHER APP ----------------
 
