@@ -1,14 +1,14 @@
-# ApexPlanet Task 4 – Responsive Website
+# ApexPlanet Internship - Task 4
 
 ## Description
-This project was developed as part of the ApexPlanet Web Development Internship.
+This project was developed as part of the ApexPlanet Web Development Internship. It is a responsive multi-page website created using HTML, CSS, and JavaScript.
 
 ## Features
-- Responsive website
-- Home page
-- About page
-- Services page
-- Contact page
+- Responsive Home Page
+- About Page
+- Services Page
+- Contact Page
+- Clean and user-friendly design
 
 ## Technologies Used
 - HTML5
