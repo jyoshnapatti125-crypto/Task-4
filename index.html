@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather & Todo App</title>
+
+    <meta name="description" content="Weather App and Todo List using HTML, CSS & JavaScript">
+    <meta name="keywords" content="Weather App, Todo App, HTML, CSS, JavaScript">
+    <meta name="author" content="Jyoshna">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>API Integration & Mini Applications</h1>
+    <p>Weather App + Todo List</p>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+    <!-- WEATHER APP -->
+    <section class="card">
+
+        <h2>🌤 Weather App</h2>
+
+        <input
+            type="text"
+            id="city"
+            placeholder="Enter City Name">
+
+        <button onclick="getWeather()">
+            Search
+        </button>
+
+        <div id="weatherResult">
+
+            <h3 id="cityName"></h3>
+
+            <img id="icon" src="" alt="Weather Icon">
+
+            <p id="temp"></p>
+
+            <p id="humidity"></p>
+
+            <p id="wind"></p>
+
+            <p id="description"></p>
+
+        </div>
+
+    </section>
+
+    <!-- TODO APP -->
+    <section class="card">
+
+        <h2>📝 Todo List</h2>
+
+        <input
+            type="text"
+            id="taskInput"
+            placeholder="Enter Task">
+
+        <button onclick="addTask()">
+            Add Task
+        </button>
+
+        <!-- Filter Buttons -->
+        <div class="filters">
+            <button onclick="displayTasks('all')">All</button>
+            <button onclick="displayTasks('active')">Active</button>
+            <button onclick="displayTasks('completed')">Completed</button>
+        </div>
+
+        <ul id="taskList"></ul>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Jyoshna | ApexPlanet Task 4</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
